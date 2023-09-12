@@ -1,0 +1,53 @@
+.bg2 {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 140px 217px;
+  background-image: url("../Pictures/bgimage.png");
+}
+.bg2 h1 {
+  color: var(--light-text, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+ 
+}
+.bg2 p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.btn1 {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 12px 24px;
+  margin-right: 1rem;
+  background: transparent;
+  color: white;
+}
+.btn1:hover {
+  background-color: orange;
+  border: 0;
+}
+
+@media screen and (max-width:480px) {
+  .bg2{
+    width: 480px;
+    padding: 2rem 3rem;
+   
+  }
+  
+}

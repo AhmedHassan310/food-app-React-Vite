@@ -1,0 +1,104 @@
+.bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../Pictures/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 140px 217px;
+  text-align: center;
+  color: white;
+}
+
+.bg p {
+  margin-bottom: 1rem;
+}
+.pp {
+  margin-top: 1rem;
+  color: #f6f6f6;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+.btn {
+  padding: 15px 40px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: transparent;
+  color: white;
+  position: relative;
+  z-index: 9;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 0 1.5rem;
+}
+.bg button:hover {
+  background-color: orange;
+  border: 0;
+}
+.h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+}
+.mobile {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -210px;
+}
+.mobile img {
+  width: 36%;
+  height: 100%;
+}
+
+.mobile hr {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+@media screen and (max-width: 480px) {
+  .filled {
+    width: 480px;
+  }
+  .pp {
+    color: black;
+  }
+  .bg {
+    margin-left: 4rem;
+    width: 70%;
+    background-image: none;
+    color: black;
+    padding: 10px 2px;
+    text-align: center;
+  }
+  .mobile {
+    flex-direction: column;
+    top: -25px;
+  }
+
+  .btns {
+    padding: 70px;
+    flex-direction: column;
+    color: black;
+    gap: 1.5rem 0;
+  }
+  .btn {
+    border: 1px solid orange;
+    border-radius: 30px;
+    background: transparent;
+    color: black;
+  }
+}
